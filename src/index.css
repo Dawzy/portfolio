@@ -1,13 +1,248 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@layer components {
+
+	.nav-flex {
+		@apply 
+		flex
+		justify-between
+		items-center
+		content-center
+		;
+	}
+
+	.nav-button {
+		@apply 
+		border-0
+		m-1
+		text-2xl
+		cursor-pointer
+		container
+		;
+	}
+
+	.border-style {
+		@apply 
+		box-border
+		border-solid
+		border-black
+		border-2
+		rounded-lg
+		shadow-sm
+		;
+	}
+
+	.container {
+		@apply
+		flex
+		justify-center
+		items-center
+		content-center
+		;
+	}
+
+	.panel {
+		@apply 
+		bg-primary
+		bg-opacity-50
+		border-style
+		container
+		w-10/12
+		h-auto
+		mx-auto
+		my-4
+		p-4
+		;
+	}
+	
+	.title {
+		@apply
+		w-auto
+		h-auto
+		font-normal
+		font-body
+		text-4xl
+		text-white
+		;
+	}
+
+	.text {
+		@apply
+		text-white
+		font-body
+		text-2xl
+		;
+	}
+
+	/* Project Page Related */
+	.project-card {
+		@apply
+		relative
+		cursor-pointer
+
+		p-0
+		m-1
+
+		bg-secondary
+
+		w-64
+		h-64
+
+		bg-no-repeat
+		bg-cover
+		bg-center
+		
+		box-border
+		border-solid
+		border-black
+		border-2
+		rounded-lg
+
+		duration-300
+		hover:-translate-y-[2%]
+		;
+	}
+
+	.project-card-overlay {
+		@apply
+		opacity-0
+		w-full
+		h-full
+		bg-black
+		text-center
+		duration-300
+		z-[2]
+		rounded-[inherit]
+		;
+	}
+
+	.project-card-title {
+		@apply
+		text
+		relative
+		px-1
+		mt-1
+		ml-1
+		z-[3]
+		duration-300
+		float-left
+		rounded-lg
+		left-0
+		bg-black
+		bg-opacity-50
+		stroke-black
+		stroke-2
+		;
+	}
+
+	.project-card-desc {
+		@apply
+		container
+		text
+		text-base
+		absolute
+		opacity-0
+		m-0
+		px-1
+		float-left
+		duration-300
+		w-full
+		h-full
+		text-center
+		align-middle
+		top-1/2
+		left-1/2
+		-translate-x-1/2
+		-translate-y-1/2
+		select-none
+		;
+	}
+
+	.btn {
+		@apply
+		bg-tertiary
+		rounded-2xl
+		h-auto
+		text-white
+		text-2xl
+		text-center
+		m-2
+		w-48
+		duration-100
+
+		border-solid
+		border-black
+		border-4
+		
+		cursor-pointer
+
+		hover:bg-primary
+		;
+	}
+
+	body {
+		@apply
+		bg-secondary
+		bg-[url("./assets/slanted-gradient.svg")]
+		bg-no-repeat
+		bg-cover
+		bg-fixed
+		bg-center
+		m-2
+		text-white
+		;
+	}
+
+	#root {
+		@apply
+		container
+		flex-col
+		;
+	}
+
+	a {
+		@apply
+		no-underline
+		;
+	}
+
+	input {
+		@apply
+		cursor-pointer
+		;
+	}
+
+	input[type=range] {
+		@apply
+		w-64
+		h-2
+		rounded-full
+		m-3
+		bg-white
+		;
+		-webkit-appearance: none;
+		appearance: none;
+	}
+
+	input[type=range]::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		appearance: none;
+		@apply
+		w-6
+		h-6
+		bg-primary
+		rounded-3xl
+		;
+	}
+
+	input[type=range]::-moz-range-thumb {
+		@apply
+		w-6
+		h-6
+		bg-primary
+		rounded-3xl
+		;
+	}
 }

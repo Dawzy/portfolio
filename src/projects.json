@@ -1,0 +1,63 @@
+{
+	"Web Development": [
+		{
+			"name": "Portfolio",
+			"year": "2023",
+			"desc": "The portfolio you are viewing right now!",
+			"url": "/",
+			"thumbnail": "Portfolio.png",
+			"tools": [
+				"tailwind",
+				"react",
+				"git"
+			]
+		}
+	],
+	"Computer Graphics/Art": [
+		{
+			"name": "Kaleidoscope",
+			"year": "2023",
+			"desc": "Make art with no effort! Or just paint.",
+			"url": "/sketches/kaleidoscope",
+			"thumbnail": "Kaleidoscope.png",
+			"tools": [
+				"p5"
+			]
+		},
+		{
+			"name": "Rain",
+			"year": "2023",
+			"desc": "Soothing rain.",
+			"url": "/sketches/rain",
+			"thumbnail": "Rain.png",
+			"tools": [
+				"p5"
+			]
+		}
+	],
+	"Video Games": [
+		{
+			"name": "Going Under",
+			"year": "2022",
+			"desc": "Survive a sinking submarine, while fixing leaks, and managing your resources.",
+			"url": "https://dawzy.itch.io/going-under",
+			"thumbnail": "GoingUnderScreenshot.png",
+			"tools": [
+				"godot",
+				"git"
+			]
+		},
+		{
+			"name": "Sillo",
+			"year": "2022",
+			"desc": "Short 2D platformer.",
+			"url": "https://dawzy.itch.io/project-sillo",
+			"thumbnail": "Sillo.png",
+			"tools": [
+				"godot",
+				"git"
+			]
+		}
+	],
+	"Other Projects": []
+}
