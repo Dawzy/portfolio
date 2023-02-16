@@ -15,19 +15,14 @@ const Rain = () => {
 		// Get number of splashes (random 2, 4)
 		let splashCount = p5.random(2, 5);
 		let angleDir = 1; // 1: right, -1: left
-
-		// Parameters
-		let a;			// angle
-		let r;			// radius
-		let s;			// splash/angle speed
-
+		
 		for (let i = 0; i < splashCount; i++) {
 			// Set the radius and speed of the splash depending on how long the rain drop is
 			// This makes closer raindrops (bigger) hit the ground harder (bigger radius and speed)
 			// and vice versa for the further raindrops (smaller)
-			r = p5.map(drop.height, 11, 18, 10, 20) + (4 - p5.random(9));
-			s = p5.map(drop.height, 11, 18, 450, 550) * angleDir + (50 - p5.random(101));
-			a = 180 * angleDir;
+			let r = p5.map(drop.height, 11, 18, 10, 20) + (4 - p5.random(9));
+			let s = p5.map(drop.height, 11, 18, 450, 550) * angleDir + (50 - p5.random(101));
+			let a = 180 * angleDir;
 			angleDir *= -1; // flip splash direction for next one
 
 			// Add splash to vector

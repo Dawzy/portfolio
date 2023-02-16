@@ -14,11 +14,11 @@ const rgbToHex = (r, g, b) => {
 	g = g.toString(16);
 	b = b.toString(16);
   
-	if (r.length == 1)
+	if (r.length === 1)
 	  r = "0" + r;
-	if (g.length == 1)
+	if (g.length === 1)
 	  g = "0" + g;
-	if (b.length == 1)
+	if (b.length === 1)
 	  b = "0" + b;
   
 	return `#${r[0]+r[1]}${g[0]+g[1]}${b[0]+b[1]}`;
@@ -98,7 +98,7 @@ const Kaleidoscope = () => {
 
 	// Option buttons
 	const onSave = () => {
-		let href = sketch.canvas .toDataURL("image/png") .replace("image/png", "image/octet-stream");
+		let href = sketch.canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
 		
 		saveLinkRef.current.setAttribute("download", "Painting.png");
 		saveLinkRef.current.setAttribute("href", href);
@@ -228,7 +228,7 @@ const Kaleidoscope = () => {
 				/>
 			</div>
 			<div className="panel relative flex-col w-80 m-0">
-				<button className="btn" onClick={onSave}><a ref={saveLinkRef}></a>Save</button>
+				<button className="btn" onClick={onSave}><button className="hidden" ref={saveLinkRef} />Save</button>
 				<button className="btn" onClick={onClear}>Clear</button>
 				<Line />
 				<button className="btn" onClick={onDefault}>Kaleidoscope</button>

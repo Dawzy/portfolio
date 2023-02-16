@@ -12,7 +12,7 @@ const Navbar = () => {
 		let newState = [false, false, false];
 
 		// Set the state of the selected button
-		let i = navButtons.findIndex(obj => obj.current == e.target);
+		let i = navButtons.findIndex(obj => obj.current === e.target);
 		if (i !== -1) newState[i] = true;
 		setNavButtonsState(newState);
 	}

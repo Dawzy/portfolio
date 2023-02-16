@@ -1,6 +1,6 @@
 import Sketch from "react-p5";
 
-const TEXT = "Sketch not found!";
+// const TEXT = "Sketch not found!";
 
 const Invalid = () => {
 
@@ -19,7 +19,12 @@ const Invalid = () => {
 
 	return (
 		<div className="container w-screen h-full">
-			<Sketch className="self-center" setup={setup} draw={draw} />
+			<Sketch
+				className="self-center"
+				setup={setup}
+				draw={draw}
+				windowResized={windowResized}
+			/>
 		</div>
 	)
 }
