@@ -11,6 +11,20 @@
 				"react",
 				"git"
 			]
+		},
+		{
+			"name": "Squash[WIP]",
+			"year": "2023",
+			"desc": "Minimal Bug Tracker. Coming soon.",
+			"url": "",
+			"thumbnail": "BugFix.svg",
+			"tools": [
+				"node",
+				"express",
+				"react",
+				"mongodb",
+				"tailwind"
+			]
 		}
 	],
 	"Computer Graphics/Art": [
