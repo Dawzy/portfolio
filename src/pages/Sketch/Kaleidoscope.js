@@ -45,9 +45,6 @@ const Kaleidoscope = () => {
 	const bgColorRef = useRef();
 	const brushColorRef = useRef();
 	
-	// Other refs
-	const saveLinkRef = useRef();
-	
 	// Settings state
 	const [folds, setFolds] = useState(8);
 	const [invert, setInvert] = useState(true);
@@ -98,12 +95,16 @@ const Kaleidoscope = () => {
 
 	// Option buttons
 	const onSave = () => {
+		// Create an anchor tag to download the png then remove the tag
+		const a = document.createElement("a");
 		let href = sketch.canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
 		
-		saveLinkRef.current.setAttribute("download", "Painting.png");
-		saveLinkRef.current.setAttribute("href", href);
-		saveLinkRef.current.click();
-	
+		a.setAttribute("download", "Painting.png");
+		a.setAttribute("href", href);
+
+		document.body.appendChild(a);
+		a.click();
+		document.body.removeChild(a);
 	}
 
 	const onClear = () => {
@@ -228,7 +229,8 @@ const Kaleidoscope = () => {
 				/>
 			</div>
 			<div className="panel relative flex-col w-80 m-0">
-				<button className="btn" onClick={onSave}><a href="/" ref={saveLinkRef}>Save</a></button>
+				
+				<button className="btn" onClick={onSave}>Save</button>
 				<button className="btn" onClick={onClear}>Clear</button>
 				<Line />
 				<button className="btn" onClick={onDefault}>Kaleidoscope</button>

@@ -15,7 +15,7 @@ const Home = () => {
 				I love learning new things, so I worked a little with all kinds of
 				technologies across different fields.
 				<br/><br/>
-				These fields include but are not limited to computer graphics/art, video games,
+				These fields include but are not limited to computer graphics/art, game development,
 				web design, AI, etc. Take a look at my project list! I am always working on expanding it.
 			</span>
 		</div>
