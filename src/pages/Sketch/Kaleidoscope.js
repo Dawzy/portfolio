@@ -228,7 +228,7 @@ const Kaleidoscope = () => {
 				/>
 			</div>
 			<div className="panel relative flex-col w-80 m-0">
-				<button className="btn" onClick={onSave}><button className="hidden" ref={saveLinkRef} />Save</button>
+				<button className="btn" onClick={onSave}><a href="/" ref={saveLinkRef}>Save</a></button>
 				<button className="btn" onClick={onClear}>Clear</button>
 				<Line />
 				<button className="btn" onClick={onDefault}>Kaleidoscope</button>
