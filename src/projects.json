@@ -13,7 +13,7 @@
 			]
 		},
 		{
-			"name": "Squash[WIP]",
+			"name": "Squash [WIP]",
 			"year": "2023",
 			"desc": "Minimal Bug Tracker. Coming soon.",
 			"url": "",
@@ -24,6 +24,18 @@
 				"react",
 				"mongodb",
 				"tailwind"
+			]
+		},
+		{
+			"name": "Al Soltan [WIP]",
+			"year": "2023",
+			"desc": "Restaurant's website.",
+			"url": "https://alsoltan.netlify.app/",
+			"thumbnail": "Dessert.jpg",
+			"tools": [
+				"react",
+				"tailwind",
+				"git"
 			]
 		}
 	],
