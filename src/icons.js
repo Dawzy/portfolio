@@ -1,5 +1,6 @@
 import { FaJava, FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa";
-import { SiMongodb, SiJavascript, SiExpress, SiGodotengine, SiTailwindcss, SiP5Dotjs } from "react-icons/si";
+import { SiNextdotjs, SiTypescript, SiMongodb, SiJavascript, SiExpress, SiGodotengine, SiTailwindcss, SiP5Dotjs } from "react-icons/si";
+import { BsFiletypeSql } from "react-icons/bs";
 
 const icons = {
 	"java": (<FaJava/>),
@@ -14,7 +15,10 @@ const icons = {
 	"node": (<FaNodeJs/>),
 	"git": (<FaGitAlt/>),
 	"p5": (<SiP5Dotjs/>),
-	"godot": (<SiGodotengine/>)
+	"godot": (<SiGodotengine/>),
+  "typescript": (<SiTypescript/>),
+  "nextjs": (<SiNextdotjs/>),
+  "sql": (<BsFiletypeSql/>)
 }
 
 export default icons;

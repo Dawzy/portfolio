@@ -22,7 +22,7 @@ const ProjectsPreview = ({projects}) => {
 					<span
 						className="project-card-desc group-hover:opacity-100"
 					>{project.desc}
-					<div className="container absolute w-full h-auto bottom-0 text-5xl pb-2">
+					<div className="container space-x-2 absolute w-full h-auto bottom-0 text-5xl pb-2 px-1">
 						{project.tools.map(tool => icons[tool])}
 					</div>
 					</span>

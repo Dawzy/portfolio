@@ -7,7 +7,7 @@ const Projects = () => {
 		{
 			Object.keys(projects).map(title => 
 			<div className="panel flex-col">
-				<h1 className="title">{`${title} [${projects[title].length}]`}</h1>
+				<h1 className="title">{`${title} [${projects[title].length} project${projects[title].length !== 1 && "s" || ""}]`}</h1>
 				<Line/>
 				<ProjectsPreview projects={projects[title]}  />
 			</div>)

@@ -1,4 +1,21 @@
 {
+  "Professional Experience": [
+		{
+			"name": "Lazyfit",
+			"year": "2023-2024",
+			"desc": "December 2023 - April 2024",
+			"url": "https://www.lazyfit.ca/",
+			"thumbnail": "Lazyfit.png",
+			"tools": [
+        "javascript",
+        "typescript",
+        "nextjs",
+				"tailwind",
+				"react",
+				"git"
+			]
+		}
+	],
 	"Web Development": [
 		{
 			"name": "Portfolio",
@@ -12,18 +29,16 @@
 				"git"
 			]
 		},
-		{
-			"name": "Squash [WIP]",
-			"year": "2023",
-			"desc": "Minimal Bug Tracker. Coming soon.",
-			"url": "",
-			"thumbnail": "BugFix.svg",
+    {
+			"name": "Summarily",
+			"year": "2024",
+			"desc": "Shorten links and summarize articles and videos' transcripts with a click.",
+			"url": "https://summarily.net/",
+			"thumbnail": "Summarily.png",
 			"tools": [
-				"node",
-				"express",
 				"react",
-				"mongodb",
-				"tailwind"
+				"tailwind",
+				"git"
 			]
 		},
 		{
@@ -31,7 +46,19 @@
 			"year": "2023",
 			"desc": "Restaurant's website.",
 			"url": "https://alsoltan.netlify.app/",
-			"thumbnail": "Dessert.jpg",
+			"thumbnail": "Soltan.png",
+			"tools": [
+				"react",
+				"tailwind",
+				"git"
+			]
+		},
+    {
+			"name": "Boethos [WIP]",
+			"year": "2024",
+			"desc": "Simple List Manager. In development.",
+			"url": "",
+			"thumbnail": "boethos.png",
 			"tools": [
 				"react",
 				"tailwind",
@@ -39,6 +66,19 @@
 			]
 		}
 	],
+  "Artifical Intelligence": [
+    {
+			"name": "ChessPlay",
+			"year": "2022",
+			"desc": "Basic Chess AI to play against. [School Project]",
+			"url": "https://github.com/Dawzy/",
+			"thumbnail": "ChessSet.png",
+			"tools": [
+				"java",
+				"git"
+			]
+		}
+  ],
 	"Computer Graphics/Art": [
 		{
 			"name": "Kaleidoscope",
@@ -84,6 +124,5 @@
 				"git"
 			]
 		}
-	],
-	"Other Projects": []
+	]
 }
