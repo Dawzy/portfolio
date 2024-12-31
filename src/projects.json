@@ -42,27 +42,33 @@
 			]
 		},
 		{
-			"name": "Al Soltan [WIP]",
-			"year": "2023",
-			"desc": "Restaurant's website.",
-			"url": "https://alsoltan.netlify.app/",
+			"name": "Soltan Market [WIP]",
+			"year": "2025",
+			"desc": "Convenience Store Website",
+			"url": "",
 			"thumbnail": "Soltan.png",
 			"tools": [
 				"react",
 				"tailwind",
-				"git"
+				"git",
+        "node",
+        "sql",
+        "postgres"
 			]
 		},
     {
-			"name": "Boethos [WIP]",
-			"year": "2024",
-			"desc": "Simple List Manager. In development.",
+			"name": "Squish [WIP]",
+			"year": "2025",
+			"desc": "Basic bug tracker. (Still in development)",
 			"url": "",
-			"thumbnail": "boethos.png",
+			"thumbnail": "BugFix.svg",
 			"tools": [
 				"react",
 				"tailwind",
-				"git"
+				"git",
+        "node",
+        "sql",
+        "postgres"
 			]
 		}
 	],

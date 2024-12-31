@@ -1,6 +1,7 @@
 import { FaJava, FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa";
 import { SiNextdotjs, SiTypescript, SiMongodb, SiJavascript, SiExpress, SiGodotengine, SiTailwindcss, SiP5Dotjs } from "react-icons/si";
 import { BsFiletypeSql } from "react-icons/bs";
+import { BiLogoPostgresql } from "react-icons/bi";
 
 const icons = {
 	"java": (<FaJava/>),
@@ -18,7 +19,8 @@ const icons = {
 	"godot": (<SiGodotengine/>),
   "typescript": (<SiTypescript/>),
   "nextjs": (<SiNextdotjs/>),
-  "sql": (<BsFiletypeSql/>)
+  "sql": (<BsFiletypeSql/>),
+  "postgres": (<BiLogoPostgresql />)
 }
 
 export default icons;
