@@ -40,36 +40,6 @@
 				"tailwind",
 				"git"
 			]
-		},
-		{
-			"name": "Soltan Market [WIP]",
-			"year": "2025",
-			"desc": "Convenience Store Website",
-			"url": "",
-			"thumbnail": "Soltan.png",
-			"tools": [
-				"react",
-				"tailwind",
-				"git",
-        "node",
-        "sql",
-        "postgres"
-			]
-		},
-    {
-			"name": "Squish [WIP]",
-			"year": "2025",
-			"desc": "Basic bug tracker. (Still in development)",
-			"url": "",
-			"thumbnail": "BugFix.svg",
-			"tools": [
-				"react",
-				"tailwind",
-				"git",
-        "node",
-        "sql",
-        "postgres"
-			]
 		}
 	],
   "Artifical Intelligence": [
@@ -128,6 +98,16 @@
 			"tools": [
 				"godot",
 				"git"
+			]
+		},
+    {
+			"name": "Metanoia",
+			"year": "2023",
+			"desc": "Puzzle Platformer",
+			"url": "https://dawzy.itch.io/metanoia",
+			"thumbnail": "metanoia.png",
+			"tools": [
+				"unity"
 			]
 		}
 	]

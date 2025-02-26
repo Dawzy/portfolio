@@ -19,7 +19,8 @@ const Skills = () => {
 				<Icon icon={icons["node"]} text="Node.js"/>
 				<Icon icon={icons["sql"]} text=""/>
 				<Icon icon={icons["git"]} text="Git"/>
-				<Icon icon={icons["p5"]} text="p5.js"/>
+				{/* <Icon icon={icons["p5"]} text="p5.js"/> */}
+				<Icon icon={icons["py"]} text="Python"/>
 				<Icon icon={icons["godot"]} text="Godot"/>
 			</div>
 		</div>
