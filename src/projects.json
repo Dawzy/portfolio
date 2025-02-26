@@ -1,11 +1,11 @@
 {
   "Professional Experience": [
 		{
-			"name": "Lazyfit [Front-End]",
+			"name": "Platehack [Front-End]",
 			"year": "2023-2024",
 			"desc": "November 2023 - April 2024",
-			"url": "https://www.lazyfit.ca/",
-			"thumbnail": "Lazyfit.png",
+			"url": "https://www.platehack.com/",
+			"thumbnail": "Platehack.jpg",
 			"tools": [
         "javascript",
         "typescript",
