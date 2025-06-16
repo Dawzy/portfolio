@@ -3,26 +3,6 @@
 @tailwind utilities;
 
 @layer components {
-
-	.nav-flex {
-		@apply 
-		flex
-		justify-between
-		items-center
-		content-center
-		;
-	}
-
-	.nav-button {
-		@apply 
-		border-0
-		m-1
-		text-2xl
-		cursor-pointer
-		container
-		;
-	}
-
 	.border-style {
 		@apply 
 		box-border

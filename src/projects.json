@@ -16,7 +16,7 @@
 			]
 		}
 	],
-	"Web Development": [
+	"Personal Projects": [
 		{
 			"name": "Portfolio",
 			"year": "2023",
@@ -30,85 +30,45 @@
 			]
 		},
     {
+			"name": "Viewly",
+			"year": "2025",
+			"desc": "A movie list composer website built with TMDB, Nextjs and AWS (Lambda, API Gateway, DynamoDB)",
+			"url": "https://viewly.davidfawzy.net",
+			"thumbnail": "Logo.svg",
+			"tools": [
+        "aws",
+        "typescript",
+        "nextjs",
+				"react",
+				"git"
+			]
+		}
+	],
+  "Other Projects": [
+    {
 			"name": "Summarily",
 			"year": "2024",
 			"desc": "Shorten links and summarize articles and videos' transcripts with a click.",
-			"url": "https://summarily.net/",
+			"url": "https://github.com/4p02/project",
 			"thumbnail": "Summarily.png",
 			"tools": [
 				"react",
 				"tailwind",
 				"git"
 			]
-		}
-	],
-  "Artifical Intelligence": [
-    {
-			"name": "ChessPlay",
-			"year": "2022",
-			"desc": "Basic Chess AI to play against. [School Project]",
-			"url": "https://github.com/Dawzy/",
-			"thumbnail": "ChessSet.png",
-			"tools": [
-				"java",
-				"git"
-			]
-		}
-  ],
-	"Computer Graphics/Art": [
-		{
-			"name": "Kaleidoscope",
-			"year": "2023",
-			"desc": "Make art with no effort! Or just paint.",
-			"url": "/sketches/kaleidoscope",
-			"thumbnail": "Kaleidoscope.png",
-			"tools": [
-				"p5"
-			]
-		},
-		{
-			"name": "Rain",
-			"year": "2023",
-			"desc": "Soothing rain.",
-			"url": "/sketches/rain",
-			"thumbnail": "Rain.png",
-			"tools": [
-				"p5"
-			]
-		}
-	],
-	"Video Games": [
-		{
-			"name": "Going Under",
-			"year": "2022",
-			"desc": "Survive a sinking submarine, while fixing leaks, and managing your resources.",
-			"url": "https://dawzy.itch.io/going-under",
-			"thumbnail": "GoingUnderScreenshot.png",
-			"tools": [
-				"godot",
-				"git"
-			]
-		},
-		{
-			"name": "Sillo",
-			"year": "2022",
-			"desc": "Short 2D platformer.",
-			"url": "https://dawzy.itch.io/project-sillo",
-			"thumbnail": "Sillo.png",
-			"tools": [
-				"godot",
-				"git"
-			]
 		},
     {
-			"name": "Metanoia",
-			"year": "2023",
-			"desc": "Puzzle Platformer",
-			"url": "https://dawzy.itch.io/metanoia",
-			"thumbnail": "metanoia.png",
+			"name": "Big Bite Donuts",
+			"year": "2024",
+			"desc": "Donut shop website",
+			"url": "https://www.cosc.brocku.ca/~df20ft/A4/index.php",
+			"thumbnail": "bbd.png",
 			"tools": [
-				"unity"
+				"html",
+				"css",
+				"javascript",
+        "php"
 			]
 		}
-	]
+  ]
 }

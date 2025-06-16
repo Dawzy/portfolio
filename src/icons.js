@@ -1,28 +1,30 @@
-import { FaJava, FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGitAlt } from "react-icons/fa";
-import { SiNextdotjs, SiTypescript, SiMongodb, SiJavascript, SiExpress, SiGodotengine, SiTailwindcss, SiP5Dotjs } from "react-icons/si";
+import { FaJava, FaHtml5, FaCss3Alt, FaReact, FaNodeJs, FaGitAlt, FaAws, FaPhp } from "react-icons/fa";
+import { SiNextdotjs, SiTypescript, SiJavascript, SiExpress, SiTailwindcss } from "react-icons/si";
 import { BsFiletypeSql } from "react-icons/bs";
 import { BiLogoPostgresql, BiLogoPython, BiLogoUnity } from "react-icons/bi";
 
 const icons = {
+  "php": (<FaPhp />),
 	"java": (<FaJava/>),
 	"c++": (<span className="text-4xl">C++</span>),
 	"html": (<FaHtml5/>),
 	"css": (<FaCss3Alt/>),
 	"javascript": (<SiJavascript/>),
 	"tailwind": (<SiTailwindcss/>),
-	"mongodb": (<SiMongodb/>),
 	"express": (<SiExpress/>),
 	"react": (<FaReact/>),
 	"node": (<FaNodeJs/>),
 	"git": (<FaGitAlt/>),
-	"p5": (<SiP5Dotjs/>),
-	"godot": (<SiGodotengine/>),
   "typescript": (<SiTypescript/>),
   "nextjs": (<SiNextdotjs/>),
   "sql": (<BsFiletypeSql/>),
   "postgres": (<BiLogoPostgresql />),
   "unity": (<BiLogoUnity />),
-  "py": (<BiLogoPython />)
+  "py": (<BiLogoPython />),
+  "aws": (<FaAws />),
+  "aws-api-gateway": (<img src="/images/Arch_Amazon-API-Gateway_64.svg" className="w-12 h-12 rounded-lg" alt="API Gateway"/>),
+  "aws-dynamodb": (<img src="/images/Arch_Amazon-DynamoDB_64.svg" className="w-12 h-12 rounded-lg" alt="DynamoDB"/>),
+  "aws-lambda": (<img src="/images/Arch_AWS-Lambda_64.svg" className="w-12 h-12 rounded-lg" alt="AWS Lambda"/>),
 }
 
 export default icons;
